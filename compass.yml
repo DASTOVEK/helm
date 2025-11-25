@@ -1,0 +1,16 @@
+name: helm
+id: ari:cloud:compass:a5fd7e86-1037-4957-88e1-656b1179d617:component/30307f94-33fc-4613-b40d-651fee166c5e/6ea022ce-d5bd-4038-8a13-9d86c0965237
+description: The Kubernetes Package Manager
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/DASTOVEK/helm
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields: null
